@@ -7,21 +7,22 @@
 ######################### site variables ##############################
 # site variables
 [params.variables]
-color_primary = "#007ac7"
-color_secondary = "#00e0d8"
+color_primary = "#e6d600"
+color_secondary = "#e7e583"
 bg_secondary = "#15192b"
-text_dark = "#242f3e"
-text_color = "#8b8e93"
-text_light = "#d4dae3"
+text_dark = "#161608"
+text_color = "#161608"
+text_light = "#fdfdf7"
 text_color_light = "#959595"
-border_color = "#dee2e6"
-border_light = "#2d3041"
-bg_gradient_primary = "linear-gradient(134deg, #00a4db 0%, #00269e 100%)"
-bg_gradient_secondary = "linear-gradient( 80deg, rgb(0,48,204) 0%, rgb(0,164,219) 100%)"
-btn_gradient_primary = "linear-gradient(45deg, rgb(0, 168, 244) 0%, rgb(2, 209, 161) 100%)" 
+border_color = "#161608"
+border_light = "#e7e583"
+bg_gradient_primary = "#e6d600"
+bg_gradient_secondary = "#15192b"
+btn_gradient_primary = "#e6d600" 
 black = "#000"
 white = "#fff"
 gray = "#8b8e93"
+
 
 # font variables
 # base font size for full website, 
