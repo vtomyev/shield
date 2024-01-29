@@ -28,7 +28,7 @@ mainSections = ["blog"]
 image_gallery = false
 
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://airform.io/shield58service@gmail.com" # contact form works with [https://airform.io/] or [https://formspree.io]
 
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
@@ -60,7 +60,8 @@ email = "shield58@gmail.com"
 # google_map
 [google_map]
 enable = true
-embed_url = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193559.60513193885!2d-74.07513185946965!3d40.709896425630156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1677481601686!5m2!1sen!2sbd"
+
+embed_url = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88263.75829442813!2d-119.33924559507955!3d46.26528590361473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54987b193e72a147%3A0xfd256fdce5f75c5!2sTri-Cities%2C%20WA!5e0!3m2!1sen!2sus!4v1706500003834!5m2!1sen!2sus"
 
 # Subscription
 [subscription]

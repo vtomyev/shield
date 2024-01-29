@@ -1,80 +1,54 @@
 ---
-title: "Our Service"
+title: "Securtiy Services in Tri-Cities | Shield Security"
 # watermark text
-watermark: "Service"
+watermark: ""
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+description: "Security guard, patrolling, event security services in the Tri-Cities, Washington"
 
-layout : "service"
-draft : false
+layout: "service"
+draft: false
 
 ############################### service ##############################
 service:
-  enable : true
-  subtitle : "Services"
-  title : "Our Service Area"
+  enable: true
+  subtitle: "Services"
+  title: "Our Service Area"
   service_item:
-  - title : "Networking"
-    icon : "far fa-object-ungroup"
-    icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
+    - title: "Vigilant Patrols"
+      icon: "fa-solid fa-video"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Our dedicated team walks your property, leaving no corner unguarded. From entry points to vulnerable areas, we ensure complete security. Rest assured, your premises are in safe hands."
 
-  - title : "Social Activity"
-    icon : "fas fa-users"
-    icon_color : "yellow" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
+    - title: "Trust & Security Presence"
+      icon: "fa-solid fa-user-shield"
+      icon_color: "yellow" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "More than uniforms, our confident professionals exude authority, deterring trouble and creating a secure environment for everyone."
 
-  - title : "Web Design"
-    icon : "fas fa-desktop"
-    icon_color : "purple" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-
-  - title : "Cloud Service"
-    icon : "fas fa-cloud"
-    icon_color : "cyan" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-    
-  - title : "Consulting"
-    icon : "far fa-comments"
-    icon_color : "red" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-    
-  - title : "SEO Optimization"
-    icon : "fas fa-search-plus"
-    icon_color : "green" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-    
-  - title : "Usability Testing"
-    icon : "fas fa-chart-line"
-    icon_color : "orange" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-    
-  - title : "UX Prototyping"
-    icon : "fab fa-wpexplorer"
-    icon_color : "blue" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do"
-
+    - title: "Event Guardian"
+      icon: "fa-solid fa-shield"
+      icon_color: "blue" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "From grand galas to backyard weddings, our experienced team ensures flawless gatherings. We handle risks, manage crowds, and respond to emergencies, letting you focus on creating memories."
 
 ############################### Features #####################################
 feature:
-  enable : true
-  subtitle : "fetures"
-  title : "exclusive features"
+  enable: false
+  subtitle: "fetures"
+  title: "exclusive features"
   feature_item:
-  - title : "Exclusive Design"
-    icon : "fas fa-desktop"
-    icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
-    
-  - title : "Easy Customize"
-    icon : "fas fa-cogs"
-    icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
-    
-  - title : "Extreme Security"
-    icon : "fas fa-shield-alt"
-    icon_color : "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
-    content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+    - title: "Exclusive Design"
+      icon: "fas fa-desktop"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+
+    - title: "Easy Customize"
+      icon: "fas fa-cogs"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+
+    - title: "Extreme Security"
+      icon: "fas fa-shield-alt"
+      icon_color: "primary" # available color : primary, yellow, purple, cyan, red, green, orange, blue.
+      content: "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
 ---

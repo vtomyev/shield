@@ -1,7 +1,7 @@
 ---
-title: "About Us"
+title: "About Us | Shield Security"
 # watermark text
-watermark: "About"
+watermark: ""
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
@@ -21,7 +21,7 @@ about:
   content : "In the beating heart of the Tri-Cities, where neighbors know each other and businesses grow side-by-side, stands Shield Security. We're not just another security company – we're your trusted allies, dedicated to keeping you and your property safe and your peace of mind intact.
 
 
-This vision comes from Bobby, with 11 years etched into the security industry. Having seen firsthand the ripples of reliable protection in his own community, he built Shield Security on a bedrock of trust, professionalism, and unwavering commitment.
+This vision comes from Bobby, with over 6 years etched into the security industry. Having seen firsthand the ripples of reliable protection in his own community, he built Shield Security on a bedrock of trust, professionalism, and unwavering commitment.
 
 
 As an owner-operated company, Bobby ensures your needs are always met with personal attention and understanding. There's no corporate maze here, just direct access to his expertise and dedication. You'll never be a number; you'll be a valued partner in crafting your own sense of security.

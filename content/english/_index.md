@@ -60,8 +60,8 @@ about:
     # about item loop
     - image : "images/about/about-2.png"
       subtitle : ""
-      title : "Experince matters"
-      content : "This vision comes from Bobby, with 11 years etched into the security industry. Having seen firsthand the ripples of reliable protection in his own community, he built Shield Security on a bedrock of trust, professionalism, and unwavering commitment."
+      title : "Experience matters"
+      content : "This vision comes from Bobby, with over 6 years etched into the security industry. Having seen firsthand the ripples of reliable protection in his own community, he built Shield Security on a bedrock of trust, professionalism, and unwavering commitment."
       button:
         enable : true
         label : "read more"
