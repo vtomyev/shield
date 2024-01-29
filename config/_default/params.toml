@@ -38,18 +38,18 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 custom_script = ""
 
 # copyright
-theme_copyright = true
+theme_copyright = false
 
 # Preloader
 [preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = false
-label = "sign up"
-link = "#"
+enable = true
+label = "Contact Us"
+link = "contact"
 
 # contact info
 [contact_info]
@@ -77,9 +77,9 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["security guard services,Seattle","private security,Seattle","security patrol,Seattle","event security,Seattle","armed security,Seattle","unarmed security,Seattle","mobile security,Seattle","executive protection,Seattle","construction site security,Seattle","retail security,Seattle","Capitol Hill security guards","Belltown security guards","Downtown Seattle security guards","Queen Anne security guards","Ballard security guards","Kirkland security guards","Bellevue security guards","Redmond security guards","Eastside security guards","South King County security guards","reliable security,Seattle","licensed security guards,Seattle","experienced security guards,Seattle","affordable security,Seattle","24/7 security,Seattle","fast response security,Seattle","custom security solutions,Seattle","peace of mind security,Seattle","deter crime,Seattle","secure your property,Seattle","CCTV monitoring","access control","alarm response","fire safety","crowd control","loss prevention","risk assessment","emergency response","Seattle PD liaison","first aid certified","Seattle area","King County","Puget Sound"]
-description = "Security guard services in Seattle, Washington"
-author = "Forrtek Solutions"
+keywords = ["security guard services,Tri-cities","private security,Tri-cities","security patrol,Tri-cities","event security,Tri-cities","armed security,Tri-cities","unarmed security,Tri-cities","mobile security,Tri-cities","executive protection,Tri-cities","construction site security,Tri-cities","retail security,Tri-cities","Capitol Hill security guards","Belltown security guards","Downtown Tri-cities security guards","Queen Anne security guards","Ballard security guards","Kirkland security guards","Bellevue security guards","Redmond security guards","Eastside security guards","South King County security guards","reliable security,Tri-cities","licensed security guards,Tri-cities","experienced security guards,Tri-cities","affordable security,Tri-cities","24/7 security,Tri-cities","fast response security,Tri-cities","custom security solutions,Tri-cities","peace of mind security,Tri-cities","deter crime,Tri-cities","secure your property,Tri-cities","CCTV monitoring","access control","alarm response","fire safety","crowd control","loss prevention","risk assessment","emergency response","Tri-cities PD liaison","first aid certified","Tri-cities area","King County","Puget Sound"]
+description = "Security guard on site, patrolling, event support, alarm investigation, emergency response services in Tri-cities, Washington"
+author = "Shield Security"
 image = "images/Logo full.svg" # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
@@ -117,6 +117,10 @@ enable = true
 expire_days = 2
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 button = "I Accept"
+
+
+#Footer content
+footer_content = "Tri-Cities, rest assured. We stand guard at businesses, homes, and events. Patrols keep watch, alarms trigger swift response, and investigations bring clarity. Your safety, our passion. Simple, reliable security."
 
 ############################# social site ########################
 [[social]]

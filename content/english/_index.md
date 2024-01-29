@@ -10,7 +10,7 @@ banner:
   button:
     enable : true
     label : "Contact us now"
-    link : "#"
+    link : "contact"
 
 ############################## Partners #################################
 partner:
