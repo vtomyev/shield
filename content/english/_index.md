@@ -49,11 +49,9 @@ about:
   about_item:
     # about item loop
     - image : "images/about/about-1.png"
-      subtitle : "about agico"
-      title : "Eausmod tempor magna nostrud exercitation"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
-              exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
+      subtitle : ""
+      title : "Owner operated!"
+      content : "As an owner-operated company, Bobby ensures your needs are always met with personal attention and understanding. There’s no corporate maze here, just direct access to his expertise and dedication. You’ll never be a number; you’ll be a valued partner in crafting your own sense of security."
       button:
         enable : true
         label : "read more"
@@ -61,11 +59,9 @@ about:
         
     # about item loop
     - image : "images/about/about-2.png"
-      subtitle : "about agico"
-      title : "Rehenderit volupate velit proident sunt culpa"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
-              exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
+      subtitle : ""
+      title : "Experince matters"
+      content : "This vision comes from Bobby, with 11 years etched into the security industry. Having seen firsthand the ripples of reliable protection in his own community, he built Shield Security on a bedrock of trust, professionalism, and unwavering commitment."
       button:
         enable : true
         label : "read more"
