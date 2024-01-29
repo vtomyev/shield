@@ -6,7 +6,7 @@ command = "npm run build"
 HUGO_VERSION = "0.115.1"
 GO_VERSION = "1.19.4"
 HUGO_THEME = "repo"
-HUGO_BASEURL = "/"
+HUGO_BASEURL = "https://shieldsecurity.services"
 
 [[headers]]
 for = "/*" # This defines which paths this specific [[headers]] block will cover.
