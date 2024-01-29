@@ -15,10 +15,28 @@ about:
   enable : true
   video_bg_image : "images/about/about-3.jpg"
   video_thumbnail : "images/about/about-4.jpg"
-  video_link : "https://www.youtube.com/embed/nqye02H_H6I?autoplay=1"
-  subtitle : "About Agico"
-  title : "Eausmod tempor magna nostrud exercitation"
-  content : "Lorem ipsum dolor sit amet consectetur adipicing elit sed do usmod tempor incididunt.enim ad minim veniam, quis nostrud exer citation ulla mco laboris nisi ut aliquip commodo. <br><br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accu santium doloreque laudantum."
+  video_link : ""
+  subtitle : ""
+  title : "About Shield Security: Your Safeguard in the Tri-Cities, Rooted in Community"
+  content : "In the beating heart of the Tri-Cities, where neighbors know each other and businesses grow side-by-side, stands Shield Security. We're not just another security company – we're your trusted allies, dedicated to keeping you and your property safe and your peace of mind intact.
+
+
+This vision comes from Bobby, with 11 years etched into the security industry. Having seen firsthand the ripples of reliable protection in his own community, he built Shield Security on a bedrock of trust, professionalism, and unwavering commitment.
+
+
+As an owner-operated company, Bobby ensures your needs are always met with personal attention and understanding. There's no corporate maze here, just direct access to his expertise and dedication. You'll never be a number; you'll be a valued partner in crafting your own sense of security.
+
+
+But Bobby's passion extends beyond himself. He fosters a team of highly trained and licensed security professionals who share his love for the Tri-Cities. Equipped with comprehensive training, they're prepared to handle any situation with unwavering precision and calm.
+
+
+Whether it's securing your business through vigilant patrols, safeguarding your special event with discreet presence, or providing peace of mind with watchful eyes on your property, we offer a comprehensive suite of services tailored to your needs and budget. From proactive patrols and swift alarm response to discreet surveillance and expert investigations, we're your one-stop shop for complete security solutions.
+
+
+More than just a service, we believe in building lasting relationships. We take the time to understand your unique concerns and tailor our approach to seamlessly integrate into your life or business operations. Your security is our priority, and we're committed to earning your trust, one secure step at a time.
+
+
+So, if you're searching for a security company that goes the extra mile, a company that understands the Tri-Cities landscape and prioritizes your needs, look no further than Shield Security. Contact us today and let Bobby and his team discuss how they can become your trusted guardians, creating a safe haven for you and your loved ones."
   button:
     enable : true
     label : "Contact Us"
@@ -26,7 +44,7 @@ about:
 
 ############################### counter #############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
   # funfact item loop
   - name : "Downloads per day"
