@@ -4,9 +4,9 @@
   "license": "UNLICENSED",
   "author": "gethugothemes",
   "scripts": {
-    "dev": "hugo server",
+    "dev": "hugo server --baseURL http://192.168.2.32 --bind 0.0.0.0",
     "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --logLevel info --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify || hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
-    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --logLevel info --buildDrafts --buildExpired --buildFuture --forceSyncStatic || hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --verbose --verboseLog --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "build": "hugo --gc --minify --logLevel info",
     "update": "hugo mod clean && hugo mod get -u ./... && hugo mod tidy"
   },
   "devDependencies": {
