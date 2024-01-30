@@ -121,4 +121,8 @@ footer a.text-light {
 .btn,
 textarea.form-control {
   border-radius: 6px;
+  &.form-control,
+  textarea.form-control {
+    border: 1px solid $border-color;
+  }
 }
