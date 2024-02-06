@@ -127,19 +127,14 @@ footer_content = "Tri-Cities, rest assured. We stand guard at businesses, homes,
 [[social]]
 title = "facebook"
 icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.facebook.com/profile.php?id=61556442652491"
 
 [[social]]
 title = "instagram"
 icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.instagram.com/shieldsecurity58/"
 
 [[social]]
 title = "tik-tok"
 icon = "fab fa-tiktok" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+link = "https://www.tiktok.com/@bobbyuesi?lang=en"
