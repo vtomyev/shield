@@ -42,9 +42,9 @@
         <div class="col-12 text-center">
           <p class="mb-0 text-light copyright">
             {{ site.Params.copyright | markdownify }}
-            {{ if site.Params.theme_copyright }}
-            | Theme by
-            <a target="_blank" rel="noopener noreferrer" href="https://gethugothemes.com/">GetHugoThemes</a>
+            {{time.Now.Year}}
+            {{ if site.Params.design_by }}
+            | Design by {{ site.Params.design_by | markdownify }}
             {{ end }}
           </p>
         </div>
