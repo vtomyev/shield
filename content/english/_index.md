@@ -2,11 +2,11 @@
 ############################### Banner #################################
 banner:
   enable : true
-  bg_image : "images/banner/security.png"
+  bg_image : "images/background/background.svg"
   title : "Shield Your World: Complete Physical Security Solutions"
   watermark : "Shield"
   content : "Unwavering Vigilance, Absolute Protection. Secure Every Aspect of Your Life with Shield Security Services."
-  image : ""
+  image : "images/banner/Hero.png"
   button:
     enable : true
     label : "Contact us now"
@@ -48,7 +48,7 @@ about:
   enable : true
   about_item:
     # about item loop
-    - image : "images/about/about-1.png"
+    - image : "images/about/about-1.jpeg"
       subtitle : ""
       title : "Owner operated!"
       content : "As an owner-operated company, Bobby ensures your needs are always met with personal attention and understanding. There’s no corporate maze here, just direct access to his expertise and dedication. You’ll never be a number; you’ll be a valued partner in crafting your own sense of security."
@@ -58,7 +58,7 @@ about:
         link : "about/"
         
     # about item loop
-    - image : "images/about/about-2.png"
+    - image : "images/about/about-2.jpeg"
       subtitle : ""
       title : "Experience matters"
       content : "This vision comes from Bobby, with over 6 years etched into the security industry. Having seen firsthand the ripples of reliable protection in his own community, he built Shield Security on a bedrock of trust, professionalism, and unwavering commitment."
@@ -69,15 +69,12 @@ about:
 
 ############################ video ###############################
 promo_video:
-  enable : false
-  video_thumbnail : "images/check-video.png"
-  video_link : "https://www.youtube.com/embed/nqye02H_H6I?autoplay=1"
-  subtitle : "Check Video"
-  title : "Best Way to Chat Your Customers."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi aliquip commodo consequat. duis aute.
-  
-
-  Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident."
+  enable : true
+  video_thumbnail : "images/video thumb.jpeg"
+  video_link : "https://www.youtube.com/embed/rFZHbiQwjhg?si=oPLgPo5hYtkTOIIK?autoplay=1"
+  subtitle : "View video"
+  title : "Watch us in action."
+  content : "We offer Vigilant Patrols, keeping a watchful eye on your property, 24/7. With Shield, you get more than security. You get Trust and Presence. Peace of mind, delivered. Don't settle for anything less. Contact Shield today for a free quote."
 
 # testimonial
 testimonial:

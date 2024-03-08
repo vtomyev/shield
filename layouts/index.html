@@ -33,9 +33,9 @@
               {{ end }}
             </div>
             <div
-              class="col-lg-5 ps-lg-0 pt-5 pt-lg-0 text-lg-right text-center">
+              class="col-lg-5 ps-lg-0 pt-5 pt-lg-0 text-lg-right text-center align-self-end">
               <div data-aos="zoom-in" data-aos-delay="500">
-                {{ partial "image.html" (dict "Src" .image "Alt" "illustration") }}
+                {{ partial "image.html" (dict "Src" .image "Alt" "illustration" "Size" "430x600") }}
               </div>
             </div>
           </div>
@@ -108,65 +108,69 @@
           <div class="container">
             <div class="row align-items-center">
               {{ if not (modBool $i 2) }}
-                <div
-                  class="col-lg-6 col-md-5 text-center text-md-left mb-4 mb-md-0">
-                  <div data-aos="fade-right">
-                    {{ partial "image.html" (dict "Src" .image "Alt" "about image" ) }}
+                <div class="row pb-5 align-items-center">
+                  <div
+                    class="col-lg-6 col-md-5 text-center text-md-left mb-4 mb-md-0 order-1 order-md-1">
+                    <div data-aos="fade-right">
+                      {{ partial "image.html" (dict "Src" .image "Alt" "about image" "Size" "500x490" "Class" "img-fluid") }}
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-7  text-md-left order-md-2 order-2 pb-md-0 pb-5">
+                    <p class="subtitle" data-aos="fade-left">{{ .subtitle }}</p>
+                    <h2
+                      class="section-title"
+                      data-aos="fade-left"
+                      data-aos-delay="100">
+                      {{ .title }}
+                    </h2>
+                    <p class="mb-4" data-aos="fade-left" data-aos-delay="150">
+                      {{ .content | markdownify }}
+                    </p>
+                    {{ if .button.enable }}
+                      {{ with .button }}
+                        <a
+                          href="{{ .link | absLangURL }}"
+                          class="btn btn-outline-primary"
+                          data-aos="fade-left"
+                          data-aos-delay="500"
+                          >{{ .label }}
+                          <span class="screen-reader-text">details</span></a
+                        >
+                      {{ end }}
+                    {{ end }}
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-7  text-md-left">
-                  <p class="subtitle" data-aos="fade-left">{{ .subtitle }}</p>
-                  <h2
-                    class="section-title"
-                    data-aos="fade-left"
-                    data-aos-delay="100">
-                    {{ .title }}
-                  </h2>
-                  <p class="mb-4" data-aos="fade-left" data-aos-delay="150">
-                    {{ .content | markdownify }}
-                  </p>
-                  {{ if .button.enable }}
-                    {{ with .button }}
-                      <a
-                        href="{{ .link | absLangURL }}"
-                        class="btn btn-outline-primary"
-                        data-aos="fade-left"
-                        data-aos-delay="500"
-                        >{{ .label }}
-                        <span class="screen-reader-text">details</span></a
-                      >
-                    {{ end }}
-                  {{ end }}
-                </div>
               {{ else }}
-                <div class="col-lg-6 col-md-7 text-md-left order-md-1 order-2">
-                  <p class="subtitle" data-aos="fade-right">{{ .subtitle }}</p>
-                  <h2
-                    class="section-title"
-                    data-aos="fade-right"
-                    data-aos-delay="100">
-                    {{ .title }}
-                  </h2>
-                  <p class="mb-4" data-aos="fade-right" data-aos-delay="150">
-                    {{ .content | markdownify }}
-                  </p>
-                  {{ if .button.enable }}
-                    {{ with .button }}
-                      <a
-                        href="{{ .link | absLangURL }}"
-                        class="btn btn-outline-primary"
-                        data-aos="fade-right"
-                        data-aos-delay="200"
-                        >{{ .label }}
-                        <span class="screen-reader-text">details</span></a
-                      >
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-7 text-md-left order-md-1 order-2">
+                    <p class="subtitle" data-aos="fade-right">{{ .subtitle }}</p>
+                    <h2
+                      class="section-title"
+                      data-aos="fade-right"
+                      data-aos-delay="100">
+                      {{ .title }}
+                    </h2>
+                    <p class="mb-4" data-aos="fade-right" data-aos-delay="150">
+                      {{ .content | markdownify }}
+                    </p>
+                    {{ if .button.enable }}
+                      {{ with .button }}
+                        <a
+                          href="{{ .link | absLangURL }}"
+                          class="btn btn-outline-primary"
+                          data-aos="fade-right"
+                          data-aos-delay="200"
+                          >{{ .label }}
+                          <span class="screen-reader-text">details</span></a
+                        >
+                      {{ end }}
                     {{ end }}
-                  {{ end }}
-                </div>
-                <div
-                  class="col-lg-6 col-md-5 text-center text-md-left order-1 order-md-2 mb-4 mb-md-0">
-                  <div data-aos="fade-left">
-                    {{ partial "image.html" (dict "Src" .image "Alt" "about-image" ) }}
+                  </div>
+                  <div
+                    class="col-lg-6 col-md-5 text-center text-md-left order-1 order-md-2 mb-4 mb-md-0">
+                    <div data-aos="fade-left">
+                      {{ partial "image.html" (dict "Src" .image "Alt" "about-image" "Size" "500x490" "Class" "img-fluid") }}
+                    </div>
                   </div>
                 </div>
               {{ end }}
@@ -182,7 +186,7 @@
   {{ with .Params.promo_video }}
     {{ if .enable }}
       <section
-        class="section-lg pb-0 promo-video bg-cover"
+        class="section-lg pb-5 promo-video bg-cover"
         {{ partial `bg-image.html` (dict `Src` `images/background/check-video.png` ) | safeHTMLAttr }}>
         <div class="container">
           <div class="row align-items-center">

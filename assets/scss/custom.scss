@@ -126,3 +126,29 @@ textarea.form-control {
     border: 1px solid $border-color;
   }
 }
+
+section.hero-area {
+  padding: 190px 0 0;
+  background-position: bottom center !important;
+
+  @include mobile-xs {
+    padding: 190px 0 100px;
+  }
+
+  @include desktop-xl {
+    padding: 190px 0 0;
+  }
+
+  p {
+    opacity: 0.70;
+  }
+
+  h1 {
+    line-height: 68px;
+    z-index: 1;
+
+    @include mobile-xs {
+      font-size: 50px;
+    }
+  }
+}

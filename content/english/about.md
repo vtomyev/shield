@@ -3,9 +3,9 @@ title: "About Us | Shield Security"
 # watermark text
 watermark: ""
 # page header background image
-page_header_image: "images/background/about.jpg"
+page_header_image: ""
 # meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+description : "About Shield Security: Your Safeguard in the Tri-Cities, Rooted in Community"
 
 layout : "about"
 draft : false
@@ -13,8 +13,8 @@ draft : false
 ############################## about ###############################
 about:
   enable : true
-  video_bg_image : "images/about/about-3.jpg"
-  video_thumbnail : "images/about/about-4.jpg"
+  video_bg_image : "images/about/bobby.jpeg"
+  video_thumbnail : ""
   video_link : ""
   subtitle : ""
   title : "About Shield Security: Your Safeguard in the Tri-Cities, Rooted in Community"

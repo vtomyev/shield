@@ -7,7 +7,7 @@
           <div class="row">
             <div class="col-md-6 pe-lg-4 mb-4 mb-md-0">
               <div class="position-relative" data-aos="fade-right">
-                {{ partial "image.html" (dict "Src" .video_bg_image "Alt" "videoThumbBg" "Class" `rounded-sm` ) }}
+                {{ partial "image.html" (dict "Src" .video_bg_image "Alt" "videoThumbBg" "Class" `rounded-sm` "Size" "405x540" ) }}
                 {{ if and .video_thumbnail }}
                   <div
                     class="floating-video {{ if .video_link }}
