@@ -71,7 +71,7 @@ about:
 promo_video:
   enable : true
   video_thumbnail : "images/video thumb.jpeg"
-  video_link : "https://www.youtube.com/embed/rFZHbiQwjhg?si=oPLgPo5hYtkTOIIK?autoplay=1"
+  video_link : "https://www.youtube.com/embed/LS92bDeUzGg?autoplay=1"
   subtitle : "View video"
   title : "Watch us in action."
   content : "We offer Vigilant Patrols, keeping a watchful eye on your property, 24/7. With Shield, you get more than security. You get Trust and Presence. Peace of mind, delivered. Don't settle for anything less. Contact Shield today for a free quote."
